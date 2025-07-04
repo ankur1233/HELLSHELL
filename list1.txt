@@ -1,4 +1,0 @@
-total 8
--rw-r--r--  1 ankursingh  staff    0 Jun 29 21:27 1.txt
--rw-r--r--  1 ankursingh  staff    0 Jun 29 21:27 2.txt
--rwxr-xr-x@ 1 ankursingh  staff  163 Jun 29 21:27 Exercises01.sh
