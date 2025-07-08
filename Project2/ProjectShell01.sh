@@ -2,23 +2,13 @@
 
 
 
-# extract inforamtion about a certain topic , searching all files in a certain folder
-
-
-# folder 1 / folder 2 
-
-# folder 1 --> file1 , file2 , folder 3
-
-# we have to search inside folder on project 2 and make sure search in all file in side folder recursive
+#Need to extract information related to your topic by searching all files inside `folder`, which is located at folder inside folder. Please ensure the search is recursive, so it checks every file within `folder` and all its subfolders. look for given search text
 
 
 function_IFfile(){
 	echo "File Found:: $1"
 
 # read file content
-
-#while rd= read -r line
-
 
 	local world=paris
 	
@@ -50,7 +40,6 @@ function_IFfile(){
 
 
 }
-
 
 function_IFFolder(){
 		
@@ -91,7 +80,6 @@ function_IFFolder(){
 }
 
 
-
 for file in ./*
 do
 	if [ -f "$file" ]; then
@@ -109,7 +97,6 @@ do
 	fi
 	
 done
-
 
 echo "Where i am now ::  $(pwd)"
 
